@@ -47,7 +47,7 @@ class Game:
         self._scores = [0, 0]
 
     def score(self):
-        calls = [0, 15, 30, 40, 'game']
+        calls = [0, 15, 30, 40]
         isAThie = (self._scores[0] == self._scores[1])
         if isAThie and self._scores[0] >= 3:
             return ['deuce', 'deuce']
